@@ -1,7 +1,11 @@
-import React from "react";
+import DiaryEditor from "../components/DiaryEditor";
 
 const New = () => {
-  return <div>New</div>;
+  return (
+    <div>
+      <DiaryEditor />
+    </div>
+  );
 };
 
 export default New;
